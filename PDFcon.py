@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # 어플리케이션 제목
-st.title("PDF to JPG Converter (without Poppler)")
+st.title("PDF to JPG Converter")
 
 # PDF 파일 업로드
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
